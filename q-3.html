@@ -14,20 +14,16 @@
     div{
         display: inline-block;
         background-color: aqua;
-        width: 23%;  
+        width: 95px;  
     }
-:not(:first-child){
+:not(.d){
     margin-left: 10px;
 }   
-:first-child {
-    margin:0 0 0 20px;
-}
-:last-child{
-margin:0 20px 0 0 ;
-}
+
+
 </style>
 <body>
-    <div>
+    <div style=" margin:0 0 0 20px;" class="d">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus consequatur repellat laborum delectus
             modi quae cumque. Error labore natus odit deleniti, molestiae placeat dolore id mollitia non voluptates
             ipsa!</p>
@@ -42,7 +38,7 @@ margin:0 20px 0 0 ;
             modi quae cumque. Error labore natus odit deleniti, molestiae placeat dolore id mollitia non voluptates
             ipsa!</p>
     </div>
-    <div>
+    <div style="margin:0 20px 0 0 ;">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus consequatur repellat laborum delectus
             modi quae cumque. Error labore natus odit deleniti, molestiae placeat dolore id mollitia non voluptates
             ipsa!</p>
